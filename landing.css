@@ -1,0 +1,152 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color:greenyellow;
+    padding: 40px 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: indigo;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    background-color: skyblue;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+    
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5e62;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* Style the featured products section */
+.featured-products {
+    max-width: 960px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: pink;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #777;
+}
+
+.product-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: indigo;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the contact section */
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color:greenyellow;
+    color: blue;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 70px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
